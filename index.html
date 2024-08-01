@@ -7,7 +7,13 @@
         <p>This is an example of a simple HTML page with one paragraph.</p>
         <p>Second Paragraph.</p>
     </body>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FQRVQGYTPJ"></script>
     <script>
-        console.log("hi")
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-FQRVQGYTPJ');
     </script>
 </html>
